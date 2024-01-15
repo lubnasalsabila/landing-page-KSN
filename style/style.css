@@ -1,0 +1,122 @@
+body {
+    background-color: black !important;
+    color: white;
+}
+nav{
+    background-color: black;
+}
+
+nav a {
+    color: white !important;
+}
+.home {
+    position: relative;
+}
+
+.home img {
+    position: absolute;
+    z-index: 0;
+}
+.logo-ksn{
+    padding-left: 70px;
+    top: 100px;
+}
+p {
+    color: white;
+}
+.container {
+    padding-top: 50%;
+    background-color: black;
+}
+.card {
+    background-color: black !important;
+    outline: 1px solid rgb(113, 14, 14);
+}
+.content-3 img {
+    width: 100px;
+}
+.carousel {
+    width: 75%; /* Sesuaikan dengan lebar yang diinginkan, contoh: 80% */
+    margin: auto;
+}
+.content-4 img{
+    width: 100px;
+}
+#contact {
+    padding: 2rem ;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.contact-from div{
+    margin-bottom: 1.4rem;
+}
+
+#contact img {
+    width: 30px;
+}
+#contact p {
+    color: #607274;
+}
+#contact h5 {
+    color: white;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 90%;
+    padding: 0.75rem 1.3rem;
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(238, 238, 238, 0.849);
+    border: 1px solid #cdcac0;
+    border-radius: 3px;
+}
+
+.btn-submit {
+    width: 90%;
+    padding: 0.75rem 1.3rem;
+    background-color: rgb(113, 14, 14);
+    color: antiquewhite;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.btn-submit:hover {
+    background-color: rgb(113, 14, 14);
+}
+
+footer {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.footer-icon {
+    margin-bottom: 1rem;
+}
+
+.footer-icon a{
+    margin: 0 0.5rem;
+}
+.footer-icon img{
+    width: 30px;
+}
+.dropdown-menu {
+    background-color: black !important;
+}
+.dropdown-menu a:hover,
+.dropdown-menu a:active {
+    background-color: rgb(61, 56, 56);
+    color: white;
+}
+
+.back {
+    width: 1280px;
+    height: 525px;
+  }
+.content-1 p {
+    font-size: 20px;
+}
